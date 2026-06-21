@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Calculator</title>
+  <link rel="stylesheet" href="css.css">
+</head>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+<body>
+  <div class="calculator">
+    <h1>Smart Calculator</h1>
+
+    <div class="display" id="result">Result: 0</div>
+
+    <div class="fields">
+      <label>
+        First number
+        <input type="number" id="num1" placeholder="Enter first number" step="any">
+      </label>
+      <label>
+        Second number
+        <input type="number" id="num2" placeholder="Enter second number" step="any">
+      </label>
+    </div>
+
+    <div class="buttons">
+      <button class="primary" data-op="add">+</button>
+      <button class="primary" data-op="subtract">−</button>
+      <button class="primary" data-op="multiply">×</button>
+      <button class="primary" data-op="divide">÷</button>
+      <button class="secondary" data-op="clear">Clear</button>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
